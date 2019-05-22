@@ -12,6 +12,7 @@
         "php":">=5.6",
         "aliyuncs/oss-sdk-php": "^2.3.0"
     },
+    "minimum-stability": "dev",
     "authors": [
         {
             "name":"zhuxiaowei",
