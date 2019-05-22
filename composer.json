@@ -1,0 +1,26 @@
+{
+    "name": "workrd/alioss",
+    "description": "aliyun oss",
+    "keywords": [
+        "aliyun",
+        "oss",
+        "storage"
+    ],
+    "type":"library",
+    "license": "MIT",
+    "require": {
+        "php":">=5.6",
+        "aliyuncs/oss-sdk-php": "^2.3.0"
+    },
+    "authors": [
+        {
+            "name":"zhuxiaowei",
+            "email": "304609001@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AliOss\\":"src/"
+        }
+    }
+}
